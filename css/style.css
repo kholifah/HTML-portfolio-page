@@ -1,0 +1,553 @@
+/********************
+GLOBAL STYLE
+*********************/
+body h1, p{
+	color: #fff;
+}
+
+/**************
+BURGER-MENU-NAVIGASI
+***************/
+/*
+#burger-holder {
+
+   position:relative;
+	left: 653px;
+	top: 20px;
+
+   background-color:transparent; 
+   width:42px; 
+   height:26px; 
+   cursor:pointer;
+	
+   }
+
+#burger-menu {
+   position:absolute; 
+   left:-152px;
+   top:54px;
+   width:359px;
+   background-color:white; 
+   border:1px solid #eee; 
+   border-radius:6px; 
+   padding:5px 10px 5px 10px; 
+   font-size:23px;
+   line-height:146%;
+   color:#2F8CDB;
+   white-space:nowrap;
+	text-align: center;
+   }
+
+#burger-menu a {
+   color:#2F8CDB;
+   text-decoration:none;
+   }
+*/
+
+
+
+
+   /**************
+   CAROUSEL
+   ***************/
+
+header{
+	margin: 0;
+	padding: 0;
+	
+}
+.carousel-inner{
+	background: #C62E3B;
+}
+.carousel-inner .carousel-caption h1{
+	position: relative;
+	top: -270px;
+	left: 6px;
+	margin-bottom: 39px;
+}
+.carousel-inner .carousel-caption p{
+	position: relative;
+	top: -270px;
+	left: 6px;
+	height: 20px;
+}
+.first{
+	  height: 746px;
+      background: url('../images/apa.png') top center no-repeat;
+   }
+.second{
+	  height: 745px;
+      background: url('../images/test.png') top center no-repeat;
+   }
+.threed{
+	  height: 745px;
+      background: url('../images/apa.png') top center no-repeat;
+ }
+.carousel-indicators{
+      position: relative;
+      top: 622px;
+      left: 674px;
+   }
+.carousel-indicators li.active, .carousel-indicators li{
+      margin: 0px 10px;
+      padding: 8px;
+   }
+.carousel-indicators img{
+	position: relative;
+	top: 90px;
+	left: 496px;
+}
+.carousel-caption h1{
+	background: url(images/SIMPLY-&-EASY.png)no-repeat;
+	text-indent: -999999px;
+	height:44px;
+	margin-left: 210px;
+}
+.carousel-caption p{
+	background: url(images/Responsive-Portofolio-Themes.png)no-repeat;
+	text-indent: -999999px;
+	margin-left: 255px;
+}
+#myCarousel{
+	height:746px;
+	margin-top:0;
+}
+
+#myCarousel a.skip{
+	position: relative;
+	left: 659px;
+	top: -29px;
+}
+
+/*********************
+ABOUTME
+**********************/
+#aboutme{
+	height: 657px;
+	background-color: #C62E3B;
+	text-align: center;
+	font-family: ;
+	margin-top: 0;
+	padding-top: 0;
+	color: #fff;
+}
+#aboutme h1{
+	background: url(images/ABOUT-ME.png)no-repeat;
+	text-indent: -999999px;
+	margin: 99px 441px 94px;
+}
+#aboutme h2{
+	margin: 45px 0 23px;
+	
+}
+#aboutme .last{
+	position: relative;
+	left: -230px;
+	top: 2px;
+}
+#aboutme p{
+	background: url(images/CREATIVE-DESIGNER.png)no-repeat;
+	text-indent: -999999px;
+	margin-left: 490px;
+}
+#aboutme img.spiner{
+	position: relative;
+	top:67px;
+	left: -12px;
+}
+
+/*******************
+OURWORKS
+********************/
+
+#ourworks{
+	height: 1053px;
+	background: #683E40;
+	color: #fff;
+	text-align: center;
+}
+
+#ourworks h1{
+	margin: 72px 423px 17px;
+	background: url(images/OUR-WORKS.png)no-repeat;
+	text-indent: -999999px;
+	width: 286px;
+}
+#ourworks p{
+	margin-bottom: -11px;
+	margin-left: 488px;
+	background: url(images/Its-our-creativity.png)no-repeat;
+	text-indent: -999999px;
+	
+}
+
+#ourworks li{
+	display: inline-block;
+	list-style: none;
+}
+#ourworks li.active a{
+	border: none;
+	background: #C62E3B;	
+}
+#ourworks li a{
+	text-decoration: none;
+	margin: 45px 12px 52px;
+	color: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+}
+#ourworks li a:hover{
+	border: none;
+	background: #C62E3B;	
+}
+#ourworks h1{
+	margin-top: 71px;
+}
+#ourworks .child{
+	margin-top: 29px;
+	margin-bottom: 58px
+}
+#ourworks .row a:hover{					 
+	opacity: 0.3;
+}
+#ourworks button{
+	background:none;
+	border:2px solid #fff;
+}
+#ourworks button:hover{
+	color: #683E40;
+	background:#fff;
+	border:2px solid #fff; 
+}
+
+
+/***********************
+ABILITY
+************************/
+
+#ability{
+	background: url(images/ScreenShot859.png)no-repeat;
+	height: 653px;
+	text-align: center;
+}
+#ability h1{
+	margin: 60px 480px 18px;
+	background: url(images/ABILITY.png)no-repeat;
+	text-indent: -999999px;
+/*
+	position: relative;
+	left: 480px;
+*/
+	width: 179px;
+}
+#ability p{
+	background: url(images/Its-my-skills-check-it-out.png)no-repeat;
+	text-indent: -999999px;
+	margin-left: 470px;
+}
+/*
+#ability p.skill{
+	background: url(images/2.png)no-repeat;	
+	height: 650px;
+	width:872px;
+	text-indent: -999999px;
+	position: relative;
+	top: 6px;
+	left:-340px;
+}
+#ability p.group9{
+	background: url(images/Group-9.png)no-repeat;
+	height: 71px;
+	text-indent: -999999px;
+	position: relative;
+	top: 80px;
+	left: -220px;
+}
+*/
+#ability p.skills{
+	background: url(images/Group-17.png)no-repeat;
+	text-indent: -999999px;
+	height: 292px;
+	width: 889px;
+	margin: 110px 0 0 121px;
+}
+/***********************
+OUR BLOG
+***********************/
+
+#ourblog{
+	height: 840px;
+	background:#683E40;
+	text-align: center;
+	color: #fff;
+	
+}
+#ourblog h1{
+	margin: 72px 449px 17px;
+	background: url(images/OUR-BLOG.png)no-repeat;
+	text-indent: -999999px;
+}
+#ourblog p{
+	margin-bottom: 45px;
+	margin-left: 497px;
+	background: url(images/We-always-write-.png)no-repeat;
+	text-indent: -999999px;
+	
+}
+
+#ourblog button{
+/*	margin-top: 53px;*/
+	color: #fff;
+	background: none;
+	border: 2px solid;
+	position: relative;
+	top: 124px;
+	
+}
+#ourblog button.primer{
+	
+	color: #fff;
+	background: none;
+	border: 2px solid;
+	padding: 7px 25px;
+	position: relative;
+	top: -18px;
+	
+}
+#ourblog button:hover{
+	color: #683E40;
+	background:#fff;
+}
+
+/**********************
+CONTACT US
+***********************/
+
+#contactus{
+	height: 731px;
+	background: #C62E3B;
+	text-align: center;
+	color: #fff;
+}
+#contactus h1{
+	margin: 72px 413px 17px;
+	background: url(images/FOLLOW-ME.png)no-repeat;
+	text-indent: -999999px;
+	height: 44px;
+	width: 354px;
+}
+#contactus p{
+	margin: 16px 380px;
+	background: url(images/You-may-contact-me-or-follow-me-on-social-media.png)no-repeat;
+	text-indent: -999999px;
+	width: 412px;
+}
+.social{
+	position: relative;
+	top: 154px;
+	left: 136px;
+	height: 179px;
+	width: 46px;
+}
+.social li{
+	list-style: none;
+	width: 19px;
+}
+.social li.facebook{
+	background: url(images/Shape-27.png)no-repeat;
+	width: 46px;
+	height: 46px;
+}
+.social li.facebook img{
+	margin-top: 15px;
+}
+.social li.google{
+	background: url(images/Shape-27-copy-3.png)no-repeat;
+	width: 46px;
+	height: 46px;
+}
+.social li.google img{
+	margin-top: 15px;
+}
+.social li.twitter{
+	background: url(images/Shape-27-copy-2.png)no-repeat;
+	width: 46px;
+	height: 46px;
+}
+.social li.twitter img{
+	margin-top: 15px;	
+}
+.social li.twitter2{
+	background: url(images/Shape-27-copy.png)no-repeat;
+	width: 46px;
+	height: 46px;
+}
+.social li.twitter2 img{
+	margin-top: 15px;	
+}
+#contactus form{
+	width: 562px;
+	position: relative;
+	top: -156px;
+	left: 305px;
+	
+	
+}
+#contactus form input{
+	background: #000;
+	margin-bottom: 14px;
+	height: 67px;
+	opacity: 0.3;
+	color: #fff;
+	text-align: center;
+	
+}
+#contactus form textarea{
+	background: #000;
+	opacity: 0.3;
+	color: #fff;
+	height: 229px;
+	text-align: center;
+}
+#contactus button{
+	position: relative;
+	top: -107px;
+	left: 14px;
+	color: #fff;
+	background: none;
+	border: 2px solid;
+	padding: 7px 31px;
+}
+#contactus button:hover{
+	color: #C62E3B;
+	background:#fff;
+}
+/******************
+FOOTER
+*****************/
+footer{
+	height: 154px;
+	background:#683E40;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+footer p {
+	padding-top: 40px;
+	font-size: 13px;
+	margin-left: 34px;
+}
+
+
+
+/* Important styles */
+#toggle {
+  display: block;
+  width: 43px;
+  height: 0px;
+  margin: -192px auto 10px;
+	position: relative;
+	top: 210px;
+	z-index: 2;
+}
+
+#toggle span:after,
+#toggle span:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -9px;
+}
+#toggle span:after{
+  top: 9px;
+}
+#toggle span {
+  position: relative;
+  display: block;
+}
+
+#toggle span,
+#toggle span:after,
+#toggle span:before {
+  width: 100%;
+  height: 6px;
+  background-color: #fff;
+  transition: all 0.3s;
+  backface-visibility: hidden;
+  border-radius: 2px;
+}
+
+/* on activation */
+#toggle.on span {
+  background-color: transparent;
+}
+#toggle.on span:before {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+#toggle.on span:after {
+  transform: rotate(-45deg) translate(7px, -8px);
+}
+#toggle.on + #menu {
+  opacity: 1;
+}
+
+/* menu appearance*/
+#menu {
+  position: relative;
+	top: 221px;
+	left: -11px;
+	z-index: 2;
+  color: #999;
+  width: 200px;
+  padding: 10px;
+  margin: auto;
+  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+  text-align: center;
+  border-radius: 4px;
+  background: white;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+  /* just for this demo */
+  opacity: 0; 
+  transition: opacity .4s;
+}
+#menu:after {
+  position: absolute;
+  top: -15px;
+  left: 95px;
+  content: "";
+  display: block;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid white;
+}
+ul, li, li a {
+  list-style: none;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  padding: 5px;
+  color: #888;
+  text-decoration: none;
+  transition: all .2s;
+}
+li a:hover,
+li a:focus {
+  background: #1ABC9C;
+  color: #fff;
+}
+
+
+/* demo styles */
+body {
+	background: #eee;
+	color: #555;
+	font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif; 
+}
+p, p a {
+	font-size: 12px;
+	text-align: center; color: #888;
+}
+
+

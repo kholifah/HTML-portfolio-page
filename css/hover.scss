@@ -1,0 +1,100 @@
+$width: 320px;
+$height: $width*1.4;
+
+$lens-size: $width/3;
+$white: #efefef;
+
+
+@mixin zone($w,$h){
+  width: $w;
+  height: $h;
+}
+@mixin full-background($fallback-color, $url){
+  background: $fallback-color url($url)no-repeat center center;
+  background-size:cover;
+}
+@mixin square($size, $color){
+  width: $size;
+  height: $size;
+  background: $color;
+}
+@mixin vertical-center($value){
+  height: $value;
+  line-height: $value;
+}
+@mixin blur($ammount){
+  -webkit-filter: blur($ammount);
+  filter: blur($ammount);
+  filter: url(#blurLogo); // Firefox
+        filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='1'); // IE
+}
+
+
+// Style
+body{
+  background: $white;
+  
+  h2{
+    text-align:center;
+    font-weight: 300;
+    color: darken($white, 15%);
+  }
+}
+
+
+.image--holder{
+  width: $width;
+  height: $height;
+  border: 1px solid #ccc;
+  margin: 3em auto;
+  overflow: hidden; 
+  position: relative; 
+  
+  .image--self{
+    @include zone(100%,100%);
+    @include full-background(#ccc, 'https://d13yacurqjgara.cloudfront.net/users/241095/screenshots/1613501/800px.png');
+    @include transition(all .2s ease);
+    background-size: 190%;
+    float: left;
+  }
+  .image--action{
+    @include zone(100%,100%);
+    text-align: center;
+    color: #fff;
+
+
+    span{
+      display: block;
+      position:  absolute;
+      @include square($lens-size, rgba(black, .1));
+      @include vertical-center($lens-size);
+      border-radius: 100%;
+      border: 1px solid #fff;
+      margin: ($height/2)-($lens-size/2) ($width/2.1)-($lens-size/2.2);
+      cursor: pointer;
+      font-weight: bold;
+      opacity: 0;
+
+      @include transform(scale(1.4));
+      @include transition(all .3s ease);
+    }
+  }
+
+  &:hover{
+    .image--self{
+      @include blur(3px);
+      background-size: 240%;
+    }
+    .image--action{
+      span{
+        opacity: 1;
+        @include transform(scale(1.1));
+
+        &:active{
+          background: #fff;
+          color: #000;
+        }
+      }
+    }
+  }
+}
